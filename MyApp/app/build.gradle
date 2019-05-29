@@ -43,14 +43,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation project(':flutter')
-    implementation project(path: ':mylibrary')
+//    implementation project(':flutter')
     //两个选一个 这个是源码集成
-//    implementation(name:'flutter-release',ext:'aar')//两个选一个 这个是产物集成
+    implementation(name:'flutter-release',ext:'aar')//两个选一个 这个是产物集成
 //    implementation 'com.github.zxf799076293:flutter_aar:master-SNAPSHOT'
 }
-//repositories {
-//    flatDir {
-//        dirs 'libs'
-//    }
-//}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}

@@ -1,6 +1,6 @@
-include ':app', ':mylibrary'
-setBinding(new Binding([gradle:this]))
-evaluate(new File(
-        settingsDir.parentFile,  //若做为原应用的子mudule，则为settingsDir
-        'flutter_test_app/.android/include_flutter.groovy'
-))
+include ':app'
+//setBinding(new Binding([gradle:this]))
+//evaluate(new File(
+//        settingsDir.parentFile,  //若做为原应用的子mudule，则为settingsDir
+//        'flutter_test_app/.android/include_flutter.groovy'
+//))
