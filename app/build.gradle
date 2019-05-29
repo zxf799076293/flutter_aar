@@ -1,10 +1,9 @@
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.zxf799076293'
+apply plugin: 'com.android.application'
+
 android {
     compileSdkVersion 28
     defaultConfig {
-//        applicationId "com.linhuiba.myapp"
+        applicationId "com.linhuiba.myapp"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
