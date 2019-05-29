@@ -1,10 +1,36 @@
-*.iml
+# Gradle
 .gradle
-/local.properties
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
+build
+local.properties
+reports
+
+# Maven
+target
+pom.xml.*
+bintray.properties
+release.properties
+gen-external-apklibs
+
+# Eclipse
+.classpath
+.project
+.settings
+eclipsebin
+
+# IntelliJ IDEA
+.idea
+*.iml
+*.ipl
+*.iws
+classes/
+idea-classes/
+coverage-error.log
+
+# Android
+gen
+bin
+project.properties
+out
+
+# Finder
 .DS_Store
-/build
-/captures
-.externalNativeBuild
